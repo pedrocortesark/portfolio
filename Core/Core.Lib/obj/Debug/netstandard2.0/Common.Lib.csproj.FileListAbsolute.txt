@@ -1,0 +1,66 @@
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\DependencyInjection\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+C:\Dev\NetExamples\trainingexample1_averagemarks\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\02_REPOJOSE\Ejemplos Patrones\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\04_PATRONESJOSE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.csprojAssemblyReference.cache
+Y:\WPF - FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\WPF - FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\WPF - FINAL\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\WPF - FINAL\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\bin\Debug\netstandard2.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2020\00_DEV\Core\Core.Lib\obj\Debug\netstandard2.0\Common.Lib.pdb

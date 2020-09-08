@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+aG6KmY0Y6/j80TPhqHi6/XYVTUp/ItZQ6t1YI0A0yKoTvje+Ch4P0r72lixBeWlcz2///kh4+zc/gGQzFgZqQ==",
+  "success": true,
+  "projectFilePath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2020\\00_DEV\\Core\\Core.Lib\\Common.Lib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pccom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pccom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\pccom\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
