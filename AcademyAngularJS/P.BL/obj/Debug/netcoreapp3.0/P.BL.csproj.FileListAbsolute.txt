@@ -1,0 +1,67 @@
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\P.BL.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.Client.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.Client.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\obj\Debug\netcoreapp3.0\P.BL.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\obj\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\03_NET\01_PRACTICAS\05_WTP-FINAL\WPF - FINAL\P.BL\obj\Debug\netcoreapp3.0\P.BL.pdb
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\P.BL.deps.json
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\P.BL.dll
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\P.BL.pdb
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.Client.dll
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.dll
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.Client.pdb
+C:\Users\pccom\Desktop\teacher\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+C:\Users\pccom\Desktop\teacher\P.BL\obj\Debug\netcoreapp3.0\P.BL.csprojAssemblyReference.cache
+C:\Users\pccom\Desktop\teacher\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfoInputs.cache
+C:\Users\pccom\Desktop\teacher\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfo.cs
+C:\Users\pccom\Desktop\teacher\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CopyComplete
+C:\Users\pccom\Desktop\teacher\P.BL\obj\Debug\netcoreapp3.0\P.BL.dll
+C:\Users\pccom\Desktop\teacher\P.BL\obj\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\P.BL.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\obj\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\obj\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\05_FINALEXERCISE\P.BL\obj\Debug\netcoreapp3.0\P.BL.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\P.BL.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\06_FINALEXERCISEWEBAPI\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CoreCompileInputs.cache
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\P.BL.deps.json
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\P.BL.dll
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\P.BL.pdb
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.DAL.EFCore.dll
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.dll
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.pdb
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\bin\Debug\netcoreapp3.0\Common.Lib.DAL.EFCore.pdb
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.csprojAssemblyReference.cache
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfoInputs.cache
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.AssemblyInfo.cs
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CoreCompileInputs.cache
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.csproj.CopyComplete
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.dll
+C:\Users\pccom\Desktop\AcademyAngularJS\P.BL\obj\Debug\netcoreapp3.0\P.BL.pdb

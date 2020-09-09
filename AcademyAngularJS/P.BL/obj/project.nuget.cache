@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EfnPVKa6YyuRCZ8qicKNCpJ2FHWLMeExZeMBrBNGSw3tGdkGzOMv9xjbR4iVoYb2WLxKwX+n/X7+zN8XPWAlvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pccom\\Desktop\\AcademyAngularJS\\P.BL\\P.BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pccom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\pccom\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\pccom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,114 @@
+﻿<style>
+    .h1
+    {
+        font: 15;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: left;
+    }  
+
+    .h2
+    {
+        font: 10;
+        font-family:monospace;
+        color: black;
+        text-align: left;
+    }   
+  
+
+    .myGrid
+    {
+        width:800px;
+        height: 250px;
+        background-color: cornflowerblue;
+    }
+
+    .myform
+    {
+    padding:20px;
+    width: 800px;
+    }
+
+
+</style>
+
+<div class="container">
+
+    <h1 class="h1">LET'S HANDLE STUDENTS!!</h1>
+    <h2 class="h2">- what do you want to do with them today? -</h2>
+    
+    <div class="row">
+
+        <form class="myform">
+            <div class="form-group row">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="vm.Name" class="form-control form-control-sm" id="name" placeholder="Name" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="vm.LastName1" class="form-control" id="lastName1" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Last Name 2</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="vm.LastName2" class="form-control form-control-lg" id="lastName2" placeholder="Last Name2" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Dni</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="vm.Dni" class="form-control form-control-lg" id="dni" placeholder="Dni" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Chair</label>
+                <div class="col-sm-10">
+                    <input type="number" ng-model="vm.Chair" class="form-control form-control-lg" id="chair" placeholder="Chair" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Message</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="vm.Message" class="form-control form-control-lg" id="errorMessage" readonly/>
+                </div>
+            </div>
+        </form>
+        
+
+
+        <div class="col-md-9">
+
+            <div>
+                <input type="button" ng-click="vm.GetStudents()" value="Get Students" />
+                <input type="button" ng-click="vm.SaveStudent()" value="Save" />
+                <input type="button" ng-click="vm.Clear()" value="Clear" />
+                <input type="button" ng-click="vm.EditStudent()" value="Edit" />
+                <input type="button" ng-click="vm.DeleteStudent()" value="Delete" />
+
+            </div>
+
+        </div>
+        
+        <div class="col-md-9">
+
+            <div ui-grid="vm.gridOptions" class="myGrid" ui-grid-selection ui-grid-cellnav></div>
+
+        
+        </div>
+        
+
+
+    </div>
+    
+
+
+</div>

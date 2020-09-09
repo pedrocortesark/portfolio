@@ -1,0 +1,5 @@
+﻿class LoginDto
+{
+    Email = "";
+    Password = "";
+}

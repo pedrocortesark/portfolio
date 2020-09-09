@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html ng-app="WebAcademyApp">
+<head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <title>WelCome to our Virtual Academy!</title>
+
+    <!-- Material traido del ejemplo de Jose. Se supone son los paquetes que utilizaremos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.8.1/ui-grid.css" integrity="sha256-sP95UDfdSzzEpZw8OEUUL29UYc6w0WhFoT+xhqO3/p4=" crossorigin="anonymous" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js" integrity="sha256-jZRUyy674QanjfVAn9YBW+d1iuxj8csDOxrwS35/GLo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js" integrity="sha256-6vbKDGwy9JmzGKxxeypGzCjyOmACDtgheaOQT6ZVafA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js" integrity="sha256-tyfWW2LtJQNI+l3F0h6xDV/ij6Mfn8lwSKHWOsmEgXM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.8.1/ui-grid.js" integrity="sha256-czJIlCross16wIZcPRThQ/ekE0CWYLIgIswmfI1BqQs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.8.3/i18n/ui-grid.selection.min.js" integrity="sha256-rmRX2ufkWVIQWxuK9my5wSAFYodvQTH92n8xF02pgxI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.8.3/ui-grid.cellnav.min.js" integrity="sha256-cl09JGXScAVnDYQZcDZwATve6vlXs7FAC1lLtw+C72I=" crossorigin="anonymous"></script>
+
+    <!-- Cargo aquí los scripts que componen mi web -->
+    <script src="js/App/ExampleVar.js"></script>
+    <script src="js/App/WebAcademyApp.js"></script>
+    <script src="services/StudentsService.js"></script>
+    <script src="models/ctos/LoginDto.js"></script>
+    <script src="js/App/Views/Index/Index.js"></script>
+    <script src="js/App/Views/Login/Login.js"></script>
+    <script src="models/Student.js"></script>
+    <script src="js/App/Views/Students/Students.js"></script>
+    <script src="js/App/Views/Subjects/Subjects.js"></script>
+
+
+</head>
+
+<body>
+
+    <index></index>
+
+</body>
+
+</html>
