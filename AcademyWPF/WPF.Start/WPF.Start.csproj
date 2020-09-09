@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AddVirtualDAL\**" />
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="AddVirtualDAL\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="AddVirtualDAL\**" />
+    <None Remove="bin\**" />
+    <Page Remove="AddVirtualDAL\**" />
+    <Page Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191230174811_newMigrations.cs" />
+    <Compile Remove="Migrations\20191230174811_newMigrations.Designer.cs" />
+    <Compile Remove="Migrations\20191231070253_AddingSubjectsTeachers.cs" />
+    <Compile Remove="Migrations\20191231070253_AddingSubjectsTeachers.Designer.cs" />
+    <Compile Remove="Migrations\20191231070448_AddingSubjectsTeachers.cs" />
+    <Compile Remove="Migrations\20191231070448_AddingSubjectsTeachers.Designer.cs" />
+    <Compile Remove="Migrations\20191231070937_AddingSubjectsTeachers.cs" />
+    <Compile Remove="Migrations\20191231070937_AddingSubjectsTeachers.Designer.cs" />
+    <Compile Remove="Migrations\20191231073709_AddingSubjectsTeachers.cs" />
+    <Compile Remove="Migrations\20191231073709_AddingSubjectsTeachers.Designer.cs" />
+    <Compile Remove="Migrations\20200102114654_AddingSubjectInfo.cs" />
+    <Compile Remove="Migrations\20200102114654_AddingSubjectInfo.Designer.cs" />
+    <Compile Remove="Migrations\20200102120524_Test2.cs" />
+    <Compile Remove="Migrations\20200102120524_Test2.Designer.cs" />
+    <Compile Remove="Migrations\20200109100356_hastalapolla.cs" />
+    <Compile Remove="Migrations\20200109100356_hastalapolla.Designer.cs" />
+    <Compile Remove="Migrations\20200110102252_addingInfoTeacher.cs" />
+    <Compile Remove="Migrations\20200110102252_addingInfoTeacher.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
+    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P.BL\P.BL.csproj" />
+    <ProjectReference Include="..\P.DAL.EFCore\P.DAL.EFCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Common.Lib">
+      <HintPath>..\..\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Lib.DAL.EFCore">
+      <HintPath>..\..\Core\Common.Lib.DAL.EFCore\bin\Debug\netstandard2.0\Common.Lib.DAL.EFCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

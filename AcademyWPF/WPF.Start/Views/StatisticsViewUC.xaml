@@ -1,0 +1,179 @@
+﻿<UserControl x:Class="WPF.Start.Views.StatisticsViewUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF.Start.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1200">
+    <Grid Background="#FFFFFDCD">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+
+                <TextBlock HorizontalAlignment="Left" Text="BY STUDENT!!" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="138" FontSize="22" Margin="254,0,0,28"/>
+                <TextBlock HorizontalAlignment="Left" Text="- all the information you need by student -" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" FontSize="16" Margin="88,66,0,0"/>
+
+            </Grid>
+
+            <Grid Grid.Row="1">
+
+                <DataGrid ItemsSource="{Binding Students}" SelectedItem="{Binding CurrentStudent}" Margin="5,5,5,5" ColumnWidth="100" AutoGenerateColumns="False">
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Loaded">
+                            <i:InvokeCommandAction Command="{Binding GetInfoCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Header="Name" Binding="{Binding CompleteName}" Width="*" />
+                        <DataGridTextColumn Header="Chair" Binding="{Binding Chair}" Width="100" />
+                        <DataGridTextColumn Header="Num Subjects" Binding="{Binding NumSubjects}" Width="100" />
+
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+            </Grid>
+
+            <Grid Grid.Row="2">
+
+                <Button Command="{Binding GetStatisticsStuCommand}" Content="Statistics By Student" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Background="#FFFFE800" Height="32" Width="134"/>
+                <TextBox Height="26" Margin="279,7,5,0" Text="{Binding MaxGradeStu}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock Margin="173,9,126,0" Text="Max Grade:" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="26" Margin="279,43,5,0" Text="{Binding MinGradeStu}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Left" Margin="173,45,0,0" Text="Min Grade:" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="26" Margin="279,0,5,0" Text="{Binding AverageStu}" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="173,0,0,0" Text="Average:" TextWrapping="Wrap" VerticalAlignment="Center" Width="101" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="55" Margin="10,56,256,0" Text="{Binding MessageStu}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+            </Grid>
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+
+                <TextBlock HorizontalAlignment="Left" Text="BY SUBJECT!!" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="138" FontSize="22" Margin="254,0,0,28"/>
+                <TextBlock HorizontalAlignment="Left" Text="- all the information all exams by subject -" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" FontSize="16" Margin="88,66,0,0"/>
+
+            </Grid>
+
+            <Grid Grid.Row="1">
+
+                <DataGrid ItemsSource="{Binding Subjects}" SelectedItem="{Binding CurrentSubject}" Margin="5,5,5,5" ColumnWidth="100" AutoGenerateColumns="False">
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Loaded">
+                            <i:InvokeCommandAction Command="{Binding GetInfoCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100" />
+                        <DataGridTextColumn Header="Teacher" Binding="{Binding TeacherName}" Width="*" />
+                        <DataGridTextColumn Header="Students" Binding="{Binding StudentsMatr}" Width="80" />
+
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+            </Grid>
+
+            <Grid Grid.Row="2">
+
+                <Button Command="{Binding GetStatisticsSubCommand}" Content="Statistics By Subject" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Background="#FFFFE800" Height="32" Width="134"/>
+                <TextBox Height="26" Margin="279,7,5,0" Text="{Binding MaxGradeSub}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock Margin="173,9,126,0" Text="Max Grade:" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="26" Margin="279,43,5,0" Text="{Binding MinGradeSub}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Left" Margin="173,45,0,0" Text="Min Grade:" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="26" Margin="279,0,5,0" Text="{Binding AverageSub}" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="173,0,0,0" Text="Average:" TextWrapping="Wrap" VerticalAlignment="Center" Width="101" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="55" Margin="10,56,256,0" Text="{Binding MessageSub}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+            </Grid>
+
+
+        </Grid>
+
+        <Grid Grid.Column="2">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+
+                <TextBlock HorizontalAlignment="Left" Text="BY EXAM!!" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="104" FontSize="22" Margin="286,0,0,28"/>
+                <TextBlock HorizontalAlignment="Left" Text="- if you need to know how your jobs has been -" TextWrapping="Wrap" VerticalAlignment="Top" Width="329" FontSize="16" Margin="61,66,0,0"/>
+
+            </Grid>
+
+            <Grid Grid.Row="1">
+
+                <DataGrid ItemsSource="{Binding Exams}" SelectedItem="{Binding CurrentExam}" Margin="5,5,5,5" ColumnWidth="100" AutoGenerateColumns="False">
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Loaded">
+                            <i:InvokeCommandAction Command="{Binding GetInfoCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100" />
+                        <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="*" />
+                        <DataGridTextColumn Header="Subject" Binding="{Binding Subject.Name}" Width="80" />
+
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+            </Grid>
+
+            <Grid Grid.Row="2">
+
+                <Button Command="{Binding GetStatisticsExaCommand}" Content="Statistics By Exam" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Background="#FFFFE800" Height="32" Width="134"/>
+                <TextBox Height="26" Margin="279,7,5,0" Text="{Binding MaxGradeExa}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock Margin="173,9,126,0" Text="Max Grade:" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="26" Margin="279,43,5,0" Text="{Binding MinGradeExa}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Left" Margin="173,45,0,0" Text="Min Grade:" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="26" Margin="279,0,5,0" Text="{Binding AverageExa}" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="173,0,0,0" Text="Average:" TextWrapping="Wrap" VerticalAlignment="Center" Width="101" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox Height="55" Margin="10,56,256,0" Text="{Binding MessageExa}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+
+            </Grid>
+
+
+        </Grid>
+
+    </Grid>
+
+</UserControl>

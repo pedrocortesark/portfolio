@@ -1,0 +1,123 @@
+﻿<UserControl x:Class="WPF.Start.Views.SubjectViewUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF.Start.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1200">
+    <Grid Background="#FFB3CFFF">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="250"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <TextBlock HorizontalAlignment="Center" Text="WELCOME SUBJECT MAIN PLACE!!" TextWrapping="Wrap" VerticalAlignment="Center" Width="342" FontSize="22"/>
+                <TextBlock HorizontalAlignment="Center" Text="- what do you want to teach in your academy? -" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" FontSize="16" Margin="0,42,0,0"/>
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="0,10,0,0">
+
+                <TextBox HorizontalAlignment="Left" Height="26" Margin="100,20,0,0" Text="{Binding Name, Mode=TwoWay}" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+                <TextBlock HorizontalAlignment="Left" Margin="26,22,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top" Width="67" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBlock HorizontalAlignment="Left" Margin="26,52,0,0" Text="Teacher:" TextWrapping="Wrap" VerticalAlignment="Top" Width="67" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBox HorizontalAlignment="Left" Height="26" Margin="100,78,0,0" Text="{Binding NumStudents, Mode=TwoWay}" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+
+                <Button Command="{Binding SaveCommand}" Content="Register" HorizontalAlignment="Left" Margin="100,182,0,0" VerticalAlignment="Top" Background="#FF0097FF" Height="32" Width="134"/>
+                <Button Command="{Binding ClearCommand}" Content="Clear" HorizontalAlignment="Left" Margin="237,182,0,0" VerticalAlignment="Top" Background="#FF0097FF" Height="32" Width="131"/>
+                <ComboBox ItemsSource="{Binding TeachersToSelect}" DisplayMemberPath="CompleteName" SelectedValue="{Binding TeacherSelected}" HorizontalAlignment="Left" Margin="100,51,0,0" VerticalAlignment="Top" Width="268"/>
+                <TextBlock HorizontalAlignment="Left" Margin="1,80,0,0" Text="NumStudents:" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="22" TextAlignment="Right" FontSize="14"/>
+                <TextBlock HorizontalAlignment="Left" Margin="0,111,0,0" Text="Credits:" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="22" TextAlignment="Right" FontSize="14"/>
+                <ComboBox ItemsSource="{Binding SeasonToSelect}" SelectedValue="{Binding Season}" HorizontalAlignment="Left" Margin="100,142,0,0" VerticalAlignment="Top" Width="268"/>
+                <ComboBox ItemsSource="{Binding CreditsToSelect}" SelectedValue="{Binding CreditsSelected}" HorizontalAlignment="Left" Margin="100,111,0,0" VerticalAlignment="Top" Width="268"/>
+                <TextBlock HorizontalAlignment="Left" Margin="16,142,0,0" Text="Season:" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Height="22" TextAlignment="Right" FontSize="14"/>
+
+            </Grid>
+
+            <Grid Grid.Row="2">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="17"/>
+                    <RowDefinition Height="90"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <TextBlock HorizontalAlignment="Left" Text="Message to the user" TextWrapping="Wrap" VerticalAlignment="Center" Margin="42,0,0,0"/>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <TextBlock Text="{Binding MessageToUser}" TextWrapping="WrapWithOverflow" Margin="40,5,37,5" Background="#FFF0F0F0" ClipToBounds="True"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <TextBlock HorizontalAlignment="Left" Text="Info to the user" TextWrapping="Wrap" VerticalAlignment="Center" Margin="41,0,0,0" Width="91"/>
+                </Grid>
+
+                <Grid Grid.Row="3">
+
+                    <TextBlock HorizontalAlignment="Left" Text="The number of subject registered in the academy is:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Margin="40,-3,0,0" Grid.ColumnSpan="2"/>
+                    <Label Content="{Binding Subjects.Count}" Margin="285,-10,87,71" FontSize="10"/>
+                    <TextBlock HorizontalAlignment="Center" Text="CopyLeft !! All the contents of this program (including, but not limited to, text, logos, content, photographs, audio, buttons, trade names and video) are based on freedom to use, share, modificate and distribute. Do not worry about it!" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9" Width="320" Margin="0,23,0,0"/>
+                    <Label Content="{Binding SbjInDict}" Margin="326,-14,45,72" RenderTransformOrigin="0.533,0.472" />
+
+                </Grid>
+
+            </Grid>
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+
+            <DataGrid ItemsSource="{Binding Subjects}" SelectedItem="{Binding CurrentSubject}" Margin="5" ColumnWidth="100" AutoGenerateColumns="False">
+
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Loaded">
+                        <i:InvokeCommandAction Command="{Binding GetInfoCommand}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100" />
+                    <DataGridTextColumn Header="Teacher" Binding="{Binding TeacherName}" Width="*" />
+                    <DataGridTextColumn Header="Students" Binding="{Binding StudentsMatr}" Width="80" />
+                    <DataGridTextColumn Header="MaxStudents" Binding="{Binding NumberStudents}" Width="80"/>
+                    <DataGridTextColumn Header="Credits" Binding="{Binding Credits}" Width="80"/>
+                    <DataGridTextColumn Header="Season" Binding="{Binding Season}" Width="100"/>
+
+                    <DataGridTemplateColumn  Width="70">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Edit" Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Width="70">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Delete" Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+        </Grid>
+
+    </Grid>
+</UserControl>
